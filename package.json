@@ -18,5 +18,23 @@
     "@kmamal/stream": "^0.0.8",
     "@kmamal/util": "^0.0.85",
     "mime-types": "^2.1.35"
+  },
+  "exports": {
+    "./middleware/http": "./src/middleware/http.js",
+    "./middleware/http-url": "./src/middleware/http-url.js",
+    "./middleware/ws": "./src/middleware/ws.js",
+    "./middleware/http-static/listing": "./src/middleware/http-static/listing.js",
+    "./middleware/http-static": "./src/middleware/http-static/index.js",
+    "./http/request": "./src/http/request.js",
+    "./http/codes": "./src/http/codes.js",
+    "./http/chunk-writer": "./src/http/chunk-writer.js",
+    "./http/protocol": "./src/http/protocol.js",
+    "./http/messages": "./src/http/messages.js",
+    "./http/respond": "./src/http/respond.js",
+    "./ws/client": "./src/ws/client.js",
+    "./ws/handshake": "./src/ws/handshake.js",
+    "./ws/socket": "./src/ws/socket.js",
+    "./ws/protocol": "./src/ws/protocol.js",
+    "./server": "./src/server.js"
   }
 }
