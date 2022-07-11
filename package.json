@@ -11,5 +11,12 @@
     "test": "./scripts/run-tests.sh",
     "update-exports": "./scripts/update-exports.sh"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@kmamal/date": "^0.0.1",
+    "@kmamal/logging": "^0.0.6",
+    "@kmamal/stream": "^0.0.8",
+    "@kmamal/util": "^0.0.85",
+    "mime-types": "^2.1.35"
+  }
 }
