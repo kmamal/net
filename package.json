@@ -13,10 +13,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@kmamal/date": "^0.0.1",
+    "@kmamal/date": "^0.0.2",
     "@kmamal/logging": "^0.0.6",
     "@kmamal/stream": "^0.0.8",
-    "@kmamal/util": "^0.0.85",
+    "@kmamal/util": "^0.0.92",
     "mime-types": "^2.1.35"
   },
   "exports": {
